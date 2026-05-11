@@ -12,8 +12,8 @@ public class Triangle {
         Triangle triangle = new Triangle();
         
         // Petit test rapide au démarrage
-        int a = 3, b = 4, c = 5;
-        System.out.println("Test de calcul de triangle pour 3, 4, 5 :");
+        int a = 3, b = 6, c = 5;
+        System.out.println("Test de calcul de triangle pour 3, 6, 5 :");
         if (triangle.isTriangle(a, b, c)) {
             System.out.println("Resultat : C'est bien un triangle !");
         } else {
